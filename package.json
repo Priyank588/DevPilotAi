@@ -6,6 +6,6 @@
     "client"
   ],
   "scripts": {
-    "build": "npm run build --workspace=client && mv client/dist ./dist"
+    "build": "npm run build --workspace=client && mv client/dist ./public"
   }
 }
