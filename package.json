@@ -1,0 +1,11 @@
+{
+  "name": "devpilot-ai-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=client && mv client/dist ./dist"
+  }
+}
